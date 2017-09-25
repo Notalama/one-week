@@ -1,0 +1,29 @@
+<div class="modal-wrap" ng-show="$ctrl.isModalOpen">
+    <div class="modal">
+        <div class="modal-close">
+            <a href="#" class="close-btn" ng-click="$ctrl.closeModal()">
+                <i class="fa fa-times fa-2x blue-text text-darken-1"></i>
+            </a>
+        </div>
+        <div class="modal-content">
+            <div class="container">
+                <h4>Add character</h4>
+                <form class="modal-form ng-pristine ng-invalid ng-invalid-required" name="modalForm" ng-submit="$ctrl.submitModal(modalForm)">
+                    <md-input-container>
+                        <input type="text" placeholder="Name">
+                    </md-input-container>
+                    <md-input-container>
+                        <input type="number" placeholder="Age">
+                    </md-input-container>
+                    <md-input-container>
+                        <input type="text" placeholder="Info">
+                    </md-input-container>
+
+
+                    <md-button md-no-ink class="md-primary" type="submit">Submit</md-button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>

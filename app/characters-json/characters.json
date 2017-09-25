@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Anna Kebabs",
+    "avatar": "img/avatar-f.svg",
+    "age": 23,
+    "info": "Angry and worldhating young women, who wanna destroy the world",
+    "firstPhrase": "Hello, nice to meet you :)"
+  },
+  {
+    "id": 2,
+    "name": "John Leads",
+    "avatar": "img/avatar-m.svg",
+    "age": 28,
+    "info": "Leader in everything. Must be first in every contest even if it is not a contest.",
+    "firstPhrase": "Lets the show begin!"
+  }
+]
